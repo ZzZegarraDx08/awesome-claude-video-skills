@@ -1,0 +1,119 @@
+{
+  "id": "001-la-ultima-galleta",
+  "title": "¿Quién se comió mi última galleta?",
+  "voice": "em_alex",
+  "speed": 1.0,
+  "lang": "es",
+  "description": "Mateo deja su última galleta en la mesa. Cuando vuelve, ya no está. El único testigo es su gato Michi... o eso cree.",
+  "tags": ["animación", "humor", "gatos", "historias cortas", "shorts"],
+  "shots": [
+    {
+      "line": "Alguien se comió mi última galleta.",
+      "set": "living_room",
+      "cam": { "from": [560, 1160, 2.0], "to": [560, 1140, 2.25] },
+      "actors": [
+        { "who": "mateo", "x": 560, "y": 1700, "expr": "shocked", "hold": "plate_empty", "look": "cam" }
+      ],
+      "fx": ["punch"],
+      "keywords": ["galleta"]
+    },
+    {
+      "line": "Hace cinco minutos estaba justo aquí.",
+      "set": "living_room",
+      "cam": { "from": [540, 1180, 1.0], "to": [600, 1220, 1.12] },
+      "actors": [
+        { "who": "mateo", "x": 300, "y": 1700, "expr": "happy", "pose": "point", "face": 1, "look": "right" },
+        { "who": "michi", "x": 900, "y": 1720, "expr": "neutral", "face": -1, "look": "left" }
+      ],
+      "props": [{ "what": "side_table", "x": 640, "y": 1640, "plate": "full" }]
+    },
+    {
+      "line": "Fui a la cocina por un vaso de leche...",
+      "set": "kitchen",
+      "cam": { "from": [520, 1150, 1.05], "to": [470, 1150, 1.15] },
+      "actors": [
+        { "who": "mateo", "x": 380, "y": 1700, "expr": "happy", "hold": "milk", "face": 1, "look": "right" }
+      ]
+    },
+    {
+      "line": "y cuando volví...",
+      "set": "living_room",
+      "cam": { "from": [540, 1180, 1.0], "to": [540, 1180, 1.0] },
+      "actors": [
+        { "who": "mateo", "x": -150, "to_x": 260, "y": 1700, "expr": "neutral", "hold": "milk", "face": 1, "look": "right" },
+        { "who": "michi", "x": 900, "y": 1720, "expr": "innocent", "face": -1, "look": "left" }
+      ],
+      "props": [{ "what": "side_table", "x": 640, "y": 1640, "plate": "empty" }]
+    },
+    {
+      "line": "el plato estaba vacío.",
+      "set": "living_room",
+      "cam": { "from": [680, 1380, 2.4], "to": [680, 1360, 2.9] },
+      "actors": [],
+      "props": [{ "what": "side_table", "x": 640, "y": 1640, "plate": "empty" }],
+      "fx": ["punch", "shake"],
+      "keywords": ["vacío"]
+    },
+    {
+      "line": "El único testigo era Michi. Y Michi no dijo nada.",
+      "set": "living_room",
+      "cam": { "from": [900, 1500, 2.3], "to": [900, 1480, 2.6] },
+      "actors": [
+        { "who": "michi", "x": 900, "y": 1720, "expr": "innocent", "face": -1, "look": "cam" }
+      ],
+      "keywords": ["Michi"]
+    },
+    {
+      "line": "Así que hice lo que haría cualquier detective.",
+      "set": "living_room",
+      "cam": { "from": [560, 1500, 1.7], "to": [560, 1520, 1.9] },
+      "actors": [
+        { "who": "mateo", "x": 520, "y": 1700, "expr": "suspicious", "pose": "crouch", "hold": "magnifier", "face": 1, "look": "down" }
+      ],
+      "props": [{ "what": "crumbs", "x": 760, "y": 1700 }],
+      "keywords": ["detective"]
+    },
+    {
+      "line": "Escondí mi celular, puse a grabar... y me fui a dormir.",
+      "set": "living_room",
+      "cam": { "from": [540, 1180, 1.0], "to": [580, 1160, 1.08] },
+      "actors": [
+        { "who": "mateo", "x": 420, "y": 1700, "expr": "suspicious", "pose": "reach", "face": 1, "look": "right" },
+        { "who": "michi", "x": 900, "y": 1720, "expr": "neutral", "face": -1, "look": "left" }
+      ],
+      "props": [{ "what": "side_table", "x": 640, "y": 1640, "plate": "full", "phone": true }]
+    },
+    {
+      "line": "A las tres de la mañana, la cámara grabó al culpable.",
+      "set": "living_room",
+      "time": "night",
+      "cam": { "from": [540, 1180, 1.0], "to": [600, 1200, 1.15] },
+      "actors": [
+        { "who": "mateo", "x": -120, "to_x": 470, "y": 1700, "expr": "sleepy", "pose": "sleepwalk", "face": 1, "look": "right" },
+        { "who": "michi", "x": 920, "y": 1720, "expr": "shocked", "face": -1, "look": "left" }
+      ],
+      "props": [{ "what": "side_table", "x": 640, "y": 1640, "plate": "full" }],
+      "fx": ["footage"],
+      "keywords": ["culpable"]
+    },
+    {
+      "line": "Era yo. Sonámbulo.",
+      "set": "living_room",
+      "cam": { "from": [540, 1140, 1.9], "to": [540, 1120, 2.3] },
+      "actors": [
+        { "who": "mateo", "x": 540, "y": 1700, "expr": "shocked", "hold": "phone", "crumbs": true, "look": "cam" }
+      ],
+      "fx": ["punch", "shake"],
+      "keywords": ["yo", "Sonámbulo"]
+    },
+    {
+      "line": "Michi todavía espera una disculpa.",
+      "set": "living_room",
+      "cam": { "from": [880, 1480, 2.2], "to": [880, 1470, 2.45] },
+      "actors": [
+        { "who": "michi", "x": 900, "y": 1720, "expr": "smug", "face": -1, "look": "cam" }
+      ],
+      "keywords": ["disculpa"]
+    }
+  ]
+}
